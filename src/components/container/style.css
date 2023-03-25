@@ -1,0 +1,19 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+.btn-sort,.title
+{
+    padding:20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.main
+{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}

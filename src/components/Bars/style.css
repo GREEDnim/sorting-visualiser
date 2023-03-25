@@ -1,0 +1,23 @@
+.bg
+{
+    
+    display:flex;
+    flex-direction:column;
+    text-align:center ;
+}
+.bars-box
+{
+    display: flex;
+    flex-grow: 1;
+    gap:2px;
+    border: 2px solid red;
+    padding:1em;
+    align-items: flex-end;
+    
+}
+.bar
+{
+    background-color: blueviolet;
+    border: 2px solid black;
+    width:100%;
+}
