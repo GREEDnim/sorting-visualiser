@@ -4,7 +4,7 @@ import './style.css'
 
 function  Container()
 {
-    const limit=20;
+    const limit=50;
     function callAllSorts(){
         // console.log("hi")
         
