@@ -5,6 +5,11 @@
     flex-direction:column;
     text-align:center ;
 }
+.heading{
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+}
 .bars-box
 {
     display: flex;
@@ -17,7 +22,7 @@
 }
 .bar
 {
-    background-color: rgb(107, 60, 151);
+    background-color: rgb(0, 0, 0);
     border: 2px solid black;
     width:100%;
 }
